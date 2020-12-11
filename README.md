@@ -27,7 +27,7 @@ Fields are: First Name,Last Name,Email Id
 ## Database
 Here `postgresql` is used as database.It is free and Secure database. `pgadmin4`providing a powerful graphical interface that simplifies the creation, maintenance and use of database objects.
 
-### connecting PostgreSQL in project
+### Connecting PostgreSQL in project
 
 In `settings.py` file make as per the following structure
 
