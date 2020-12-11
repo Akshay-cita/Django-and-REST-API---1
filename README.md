@@ -43,6 +43,8 @@ In `settings.py` file make as per the following structure
             }
         }
 
+`Psycopg2` is a DB API 2.0 compliant PostgreSQL driver that is actively developed. It is designed for multi-threaded applications and manages its own connection pool.
 
+Installing in ubuntu `sudo apt-get install python-psycopg2`
 
 
