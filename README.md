@@ -31,13 +31,18 @@ Here `postgresql` is used as database.It is free and Secure database. `pgadmin4`
 
 In `settings.py` file make as per the following structure
 
-`DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'database name',
-        'USER':'postgres username(defaultname is 'postgres')',
-        'PASSWORD':'XXXXXX',
-        'HOST':'127.0.0.1',
-        'PORT':'5432',
-    }
-}`
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'database name',
+            'USER':'postgres username(defaultname is 'postgres')',
+            'PASSWORD':'XXXXXX',
+            'HOST':'127.0.0.1',
+            'PORT':'5432',
+            }
+        }
+
+
+
+
