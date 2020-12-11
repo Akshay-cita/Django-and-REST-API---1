@@ -7,6 +7,6 @@ Fields are: Album,Artist,Description
 
 ### Artist
 
-Fields are:First Name,Last Name,Email Id
+Fields are: First Name,Last Name,Email Id
 
 
