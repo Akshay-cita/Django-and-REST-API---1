@@ -25,4 +25,19 @@ Fields are: First Name,Last Name,Email Id
 2. `http://127.0.0.1:8000/api/songlist/` List out all the songs registered 
 
 ## Database
-Here postgresql is used as database.It is freeand Secure database.`pgadmin4`providing a powerful graphical interface that simplifies the creation, maintenance and use of database objects.
+Here `postgresql` is used as database.It is free and Secure database. `pgadmin4`providing a powerful graphical interface that simplifies the creation, maintenance and use of database objects.
+
+### connecting PostgreSQL in project
+
+In `settings.py` file make as per the following structure
+
+`DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'database name',
+        'USER':'postgres username(defaultname is 'postgres')',
+        'PASSWORD':'XXXXXX',
+        'HOST':'127.0.0.1',
+        'PORT':'5432',
+    }
+}`
